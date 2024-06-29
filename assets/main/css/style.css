@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/metropolis-bold.otf') format('opentype');
+    font-weight: 700; /* Bold */
+}
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/metropolis.medium.otf') format('opentype');
+    font-weight: 500; /* Medium */
+}
+
+:root {
+    --purple: #722ED1;
+    --light-purple: #F7F1FF;
+    --dark-purple: #160637;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Metropolis', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* ----------------------- Home Section Begin ----------------------- */
+
+.home_bg {
+    background-image: linear-gradient(#fff, #E3F2FF);
+    width: 100%;
+}
+
+.home_bg .nav-link {
+    font-size: 14px;
+    color: #000;
+}
+.home_bg .nav-link:hover {
+    color: #777;
+}
+
+.free_trial {
+    text-decoration: none;
+    color: var(--purple);
+    border: 1px solid var(--purple);
+    padding: 10px 24px;
+    border-radius: 23px;
+    font-size: 14px;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+.free_trial:hover {
+    background-color: var(--purple);
+    color: #fff;
+}
+
+.free_trial_white {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid var(--purple);
+    padding: 10px 24px;
+    border-radius: 23px;
+    font-size: 14px;
+    display: inline-block;
+    transition: 0.4s;
+    background-color: var(--purple);
+}
+
+.free_trial_white:hover {
+    background-color: #fff;
+    color: var(--purple);
+}
+
+.bg_purple {
+    background-color: var(--light-purple);
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: var(--purple);
+    display: inline-block;
+}
+
+.bg_purple a {
+    color: var(--purple);
+}
+
+.learn_more {
+    text-decoration: none;
+    color: var(--purple);
+    padding: 10px 24px;
+    border-radius: 23px;
+    font-size: 14px;
+    display: inline-block;
+    transition: 0.4s;
+    background-color: #fff;
+}
+
+.learn_more:hover {
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+.home_header {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+}
+.home_text {
+    color: #787C80;
+}
+/* ----------------------- Home Section End ----------------------- */
+
+
+/* ----------------------- Qubly Section Begin ----------------------- */
+.d_title {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--dark-purple);
+}
+.d_text {
+    color: #8989A2;
+}
+
+.qubly_title {
+    color: var(--dark-purple);
+    font-weight: 700;
+    font-size: 16px;
+}
+/* ----------------------- Qubly Section End ----------------------- */
+
+
+
