@@ -134,3 +134,31 @@ body {
 
 
 
+/* ----------------------- Brand Section Begin ----------------------- */
+
+.brand_bg {
+    background-image: linear-gradient(#FCF8FF, #F3F8FF);
+    width: 100%;
+}
+
+.quote {
+    font-size: 24px;
+    color: #160637;
+}
+
+.full_info {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.line {
+    background-color: #DEC9FA;
+    height: 1px;
+    width: 100%;
+}
+/* ----------------------- Brand Section End ----------------------- */
+
+
+
+
