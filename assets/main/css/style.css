@@ -162,3 +162,15 @@ body {
 
 
 
+/* ----------------------- Form Section Begin ----------------------- */
+.grey_line {
+    background-color: #D6D6D6;
+    height: 1px;
+    width: 100%;
+}
+
+.trusted {
+    color: #8989A2;
+}
+/* ----------------------- Form Section End ----------------------- */
+
