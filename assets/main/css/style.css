@@ -172,5 +172,26 @@ body {
 .trusted {
     color: #8989A2;
 }
+
+.my_form {
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.my_shadow {
+    box-shadow: 30px 30px #F9F0FF;
+}
+
+.google_btn {
+    background-color: #4285F4;
+    text-decoration: none;
+    border-radius: 4px; 
+    padding: 1px;
+    font-size: 18px;
+}
+
+.login {
+    color: var(--purple);
+    font-size: 14px;
+}
 /* ----------------------- Form Section End ----------------------- */
 
