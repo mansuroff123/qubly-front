@@ -175,9 +175,13 @@ body {
 
 .my_form {
     border-radius: 8px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
 }
+
 .my_shadow {
+    transition: 0.5s;
+}
+.my_shadow:hover {
     box-shadow: 30px 30px #F9F0FF;
 }
 
@@ -193,5 +197,34 @@ body {
     color: var(--purple);
     font-size: 14px;
 }
+
+.free_trial_2 {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid var(--purple);
+    padding: 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    display: inline-block;
+    transition: 0.4s;
+    background-color: var(--purple);
+    text-align: center;
+}
+
+.free_trial_2:hover {
+    background-color: #fff;
+    color: var(--purple);
+}
+
+.my_form {
+    padding: 16px;
+    box-shadow: none;
+
+}
+
+.my_form::placeholder {
+    color: #8989A2;
+}
+
 /* ----------------------- Form Section End ----------------------- */
 
