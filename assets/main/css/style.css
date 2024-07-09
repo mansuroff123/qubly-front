@@ -228,3 +228,65 @@ body {
 
 /* ----------------------- Form Section End ----------------------- */
 
+
+
+
+
+/* ----------------------- Footer Section Begin ----------------------- */
+footer {
+    background-color: #FBFCFF;
+}
+
+.custom_form {
+  display: flex;
+  align-items: center;
+  width: 100%; 
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.custom_form input[type="email"]::placeholder {
+    color: #8989A2;
+}
+
+.custom_form input[type="email"] {
+  border: none;
+  outline: none;
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.custom_form button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom_form button img {
+  width: 26px; 
+  height: 26px;
+}
+
+
+
+.footer_title {
+    color: #160637;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: #160637;
+    font-size: 14px;
+}
+
+.footer_link:hover {
+    color: #8989A2;
+}
+/* ----------------------- Footer Section End ----------------------- */
